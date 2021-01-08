@@ -23,7 +23,7 @@
   text-decoration: none;
 }
 
-.sidebar img{
+.sidebar.logo{
   align-self: center;
   width: 15em;
   height: 15em;
@@ -31,9 +31,16 @@
 
 .main{
   flex-grow: 1;
+  font-family: Tahoma, sans-serif;
 }
 
 .mainpic{
   width: 15em;
   height: 15em;
+  border-radius: 50%;
+  word-wrap: normal;
+}
+
+#project-list h3{
+  background-color: rgb(46, 196, 232);
 }
